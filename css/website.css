@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* header{
+    height: 95vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/image1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.nav-bar{
+    padding-top: 2em;
+    
+    /* border-bottom: 1px solid black; */
+}
+.nav-bar::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.logo{
+    
+    float: left;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.3em;
+    width: 100%;
+    color: rgb(8, 5, 5);
+    
+}
+.hamburger-menu{
+    
+    float: right;
+    font-size: larger;
+    word-spacing: 1em;
+    /* border-left: 1px solid black;  */
+    font-weight: bold;
+    padding:1em;  
+    margin-bottom:1em;
+    padding-left: 1rem;
+}
+
+
+.header .logo ,
+ .header .nav-bar a{
+    color: rgb(7, 5, 5);
+}
+
+
+.nav-item{
+    display: inline-block;
+    
+    
+}
+ a{
+    text-decoration: none;
+    
+ }
+ .tag-line{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 75px;
+    
+    margin-top:9rem;
+ }
+.little-p{
+    font-size: large;
+    letter-spacing: 1px;
+    border-bottom: 1px solid black;
+    
+}
+.section1{
+    margin-top: 20em;
+    
+    
+}
+.images{
+    width: 30%;
+    
+}
+
+.describe{
+    float: left;
+    padding: 1em;
+    
+    margin: 0em 4em 0 0;
+    width: 50%;
+    
+
+}
+.images{
+    float: left;
+    
+}
+.classes{
+    display: block;
+    /* border: 2px solid red; */
+    background-color:#fff;
+}
+.classes::after{
+    content: '';
+    display: block;
+    clear:both;
+}
+.classes{
+    margin-bottom:4em;
+    box-shadow: 0px 0px 20px 0px rgb(233, 232, 232);
+
+    }
+    .class-heading{
+        display: inline-block;
+        border-bottom: 1px solid black;
+        margin:1em 2em;
+        width: 60%;
+        
+    }
+    .ep-btn{
+        text-transform: uppercase;
+        border: 1px solid black;
+        border-radius: 100px;
+        background-color: black;
+        color:white;
+        padding: 0.5em;
+        font-weight: bold;
+    }
+    .look-button{
+        display: inline-block;
+        text-transform: uppercase;
+        border: 1px solid white;
+        color: white;
+        padding: 1em 3em 1em 3em;
+        font-weight: bolder;
+        border-radius: 100px;
+        margin-top: 2em;
+    }
+
+.header{
+    margin-bottom: 1px solid black;
+}
+.look{
+    /* box-sizing: border-box; */
+    padding: 5em ;
+    display: inline-block;
+    /* border: 2px solid red; */
+    margin:5em ;
+}
+.hotelp{
+    margin-top: 1em;
+}
+.left-hotel{
+    float: left;
+    width: 65%;
+}
+.hotel{
+    float: right;
+    width: 35%;
+}
+.look{
+    box-shadow: 0px 0px 20px 0px rgb(233, 232, 232);
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.footer{
+    
+    
+    font-size:5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:75px 75px 40px 75px;
+    word-spacing:4em;
+}
+.footerp{
+    font-size: 1em;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 1em;
+    
+}
+.menubar{
+    letter-spacing: 1px;
+}
+.menu-heading{
+    width: 100%;
+    /* border-bottom: 1px solid black; */
+    margin-top: 5em;
+    padding: 0em 0em 2em 1em;
+    text-transform: uppercase;
+}
+.menu-heading::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.menu-menu{
+    
+    float: left;
+    font-size: 30px;
+    color: rgb(8, 5, 5);
+    
+}
+.get-help{
+    float: right;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* ############################################### contact-us ################################################  */
+
+.contact-us{
+    margin-top: 1em;
+    
+
+}
+.contact-image{
+    width: 90%;
+    height: 50%;
+    
+}
+.contact-option{
+    display: flex;
+    font-size: larger;
+    font-weight :bolder;
+    justify-content: flex-end;
+    flex-direction: row;
+    /* border-right: 4px solid black; */
+    width: 100%;
+    margin-top: 2em;
+}
+.fontsmall{
+    font-weight: 500px;
+}
+.phone{
+    border-right: 1px solid black;
+    
+}
+.Address{
+    border-right: 1px solid black;
+    padding-left: 2em;
+
+}
+.email{
+    padding-left: 2em;
+}
+.footer{
+    
+    
+    font-size:5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:75px 75px 40px 75px;
+    word-spacing:4em;
+}
+.footerp{
+    font-size: 1em;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 1em;
+    
+    
+}
+
+
+.footercontact{
+    
+    
+    font-size:5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:75px 75px 40px 75px;
+    word-spacing:4em;
+    margin-top: 14rem;
+}
+.footerpcontact{
+    font-size: 1em;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 1em;
+    
+}.footermenu{
+    
+    
+    font-size:5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:75px 75px 40px 75px;
+    word-spacing:4em;
+    margin-top: 17rem;
+}
+.footermcontact{
+    font-size: 1em;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 1em;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ################################################# utility classes #################################################  */
+
+.lg-heading{
+font-size: 40px;
+}
+.font-bold{
+    font-weight:bolder;
+}
+@media(max-width:500px)
+{
+    html{
+        font-size: 5px;
+    }
+ 
+    body{background-color: rgb(169, 128, 128);
+    }   
+}
